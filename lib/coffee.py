@@ -19,4 +19,5 @@ class Coffee:
     
     def tip(self):
         self.price += 1
-        print("This coffee is great, here's a tip!")
+        # FIX: Use curly apostrophe (’) not straight (')
+        print("This coffee is great, here’s a tip!")
